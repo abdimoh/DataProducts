@@ -1,0 +1,20 @@
+---
+title: "Readme"
+author: "abdimoh"
+date: "Friday, January 23, 2015"
+output: html_document
+---
+
+This is an application based on the dataset mtcars in R. The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
+
+
+This application has two features:
+
+1. To display the histogram (distribution) of the following variables:
+Miles/(US) gallon, Number of cylinders, Gross horsepower, Weight (lb/1000).
+
+The user has to choose a variable in the selection box in order to display the corresponding histogram.
+
+2. To display the average miles per gallon (mpg) by number of cylinders in the car (cyl).
+
+The user has to choose the cyl in the selection box in order to display the average mpg.
