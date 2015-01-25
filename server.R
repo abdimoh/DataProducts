@@ -20,7 +20,7 @@ shinyServer(
       data <- switch(input$var2,
                      "4 cylinders" = tapply(mtcars$mpg, mtcars$cyl, mean)[[1]],
                      "6 cylinders" = tapply(mtcars$mpg, mtcars$cyl, mean)[[2]],
-                     "8 cylinders" = tapply(mtcars$mpg, mtcars$cyl, mean)[[1]])               
+                     "8 cylinders" = tapply(mtcars$mpg, mtcars$cyl, mean)[[3]])               
       
      
        
